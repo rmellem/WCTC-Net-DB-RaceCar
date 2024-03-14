@@ -18,6 +18,7 @@ namespace RaceTrack
 
             for (int i = 0; i < raceTrack.NumberOfLaps; i++)
             {
+
                 raceTrack.AnnouncePositions();
             }
 

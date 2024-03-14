@@ -11,6 +11,7 @@ namespace RaceTrack.RaceTrack.Drivers
     public abstract class Driver
     {
         public string Name { get; set; }
+
         public int SkillLevel { get; set; }
         public RaceCar Car { get; set; }
 
