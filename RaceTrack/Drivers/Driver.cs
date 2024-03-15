@@ -28,6 +28,10 @@ namespace RaceTrack.RaceTrack.Drivers
         {
             Car.StartEngine();
         }
+        public virtual void StopEngine()
+        {
+            Car.StopEngine();
+        }
         public virtual void Stop()
         {
             Car.Brake();
